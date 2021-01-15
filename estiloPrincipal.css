@@ -1,0 +1,155 @@
+h1, h2, h3, h4, h5, h6, p, td, li
+{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 { font-size: 64px; }
+
+h2 { font-size: 38px; }
+
+h3 { font-size: 34px; }
+
+h4 { font-size: 32px; }
+
+h5 { font-size: 30px; }
+
+h6 { font-size: 28px; }
+
+p, td, li { font-size: 24px; }
+
+p.avisoLegal
+{
+    margin-top: 16px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+p
+{
+    text-align: justify;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+* + p, * + img
+{
+    margin-top: 12px;
+}
+
+* + li
+{
+    margin-top: 18px;
+}
+
+div
+{
+    border-radius: 12px;
+    margin: auto;
+    padding: 10px;
+}
+
+div.externo
+{
+    width: 85%;
+    background-color: #f0f0f0;
+}
+
+div.titulo
+{
+    margin-bottom: 10px;
+}
+
+div.conteudo
+{
+    padding: 18px;
+}
+
+div.titulo h1, h2, h3, h4, h5, h6
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+div.conteudo
+{
+    background-color: #ffffff;
+    color: #222222
+}
+
+.vermelho { background-color: #da0202; }
+.vermelho > * { color: white; }
+
+.azul { background-color: #25258b; }
+.azul > * { color: white; }
+
+.verde { background-color: #25b800; }
+.verde > * { color: white; }
+
+.magenta { background-color: #d6008f; }
+.magenta > * { color: white; }
+
+.amarelo { background-color: #eeee00; }
+.amarelo > * { color: black; }
+
+.ciano { background-color: #00ebeb; }
+.ciano > * { color: black; }
+
+.preto { background-color: #000000; }
+.preto > * { color: white; }
+
+.branco { background-color: #ffffff; }
+.branco > * { color: black; }
+
+table.tierList
+{
+    border: 8px solid #f0f0f0;
+    border-radius: 8px;
+    padding: 2px;
+    border-spacing: 2px 4px;
+    background-color: #f8f8f8;
+}
+
+table.tierList td
+{
+    font-weight: bold;
+    border-radius: 8px;
+    
+}
+
+table.tierList td.s { background-color: #ffd700; }
+
+table.tierList td.a { background-color: #dbe4eb; }
+
+table.tierList td.b { background-color: #cd7f32; }
+
+table.tierList td.c { background-color: #a19d94; }
+
+td.amostra
+{
+    width: 120px;
+    height: 120px;
+}
+
+td.amostra p
+{
+    text-align: center;
+    vertical-align: middle;
+}
+
+td.ranque
+{
+    width: 40px;
+    height: 80px;
+    text-align: center;
+}
+
+table.tierList
+{
+    margin: auto;
+}
+
+img
+{
+    max-width: 800px;
+    height: 500px;
+}
